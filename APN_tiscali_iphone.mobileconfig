@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadContent</key>
+            <array>
+                <dict>
+                    <key>APN</key>
+                    <string>tiscalimobileinternet</string>
+                    <key>SetupModes</key>
+                    <array>
+                        <string>Any</string>
+                    </array>
+                    <key>PayloadDescription</key>
+                    <string>Configurazione APN Tiscali Mobile per Dati Cellulare</string>
+                    <key>PayloadDisplayName</key>
+                    <string>Dati Cellulare</string>
+                    <key>PayloadIdentifier</key>
+                    <string>com.apple.mobiledevice.apn.APN.E35B3B71-0819-4A95-9C49-2A2B03BB790E</string>
+                    <key>PayloadType</key>
+                    <string>com.apple.cellular.apn</string>
+                    <key>PayloadUUID</key>
+                    <string>E35B3B71-0819-4A95-9C49-2A2B03BB790E</string>
+                    <key>PayloadVersion</key>
+                    <integer>1</integer>
+                </dict>
+                <dict>
+                    <key>APN</key>
+                    <string>tiscalimobileinternet</string>
+                    <key>SetupModes</key>
+                    <array>
+                        <string>Any</string>
+                    </array>
+                    <key>DefaultProtocolMask</key>
+                    <integer>255</integer>
+                    <key>PayloadDescription</key>
+                    <string>Configurazione APN Tiscali Mobile per Hotspot Personale</string>
+                    <key>PayloadDisplayName</key>
+                    <string>Hotspot Personale</string>
+                    <key>PayloadIdentifier</key>
+                    <string>com.apple.mobiledevice.apn.Hotspot.4A9D3F9B-67E0-4780-B3B5-8F4C6E5F81D6</string>
+                    <key>PayloadType</key>
+                    <string>com.apple.cellular.apn</string>
+                    <key>PayloadUUID</key>
+                    <string>4A9D3F9B-67E0-4780-B3B5-8F4C6E5F81D6</string>
+                    <key>PayloadVersion</key>
+                    <integer>1</integer>
+                    <key>AllowedProtocolMask</key>
+                    <integer>255</integer>
+                    <key>Enabled</key>
+                    <true/>
+                </dict>
+            </array>
+            <key>PayloadDescription</key>
+            <string>Contiene le impostazioni APN per Dati Cellulare e Hotspot Personale.</string>
+            <key>PayloadDisplayName</key>
+            <string>Impostazioni Tiscali Mobile APN</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.mobiledevice.apn-group.E35B3B71-0819-4A95-9C49-2A2B03BB790E</string>
+            <key>PayloadType</key>
+            <string>com.apple.payloadcontent</string>
+            <key>PayloadUUID</key>
+            <string>E35B3B71-0819-4A95-9C49-2A2B03BB790E</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Configurazione Tiscali Mobile APN (Internet e Hotspot)</string>
+    <key>PayloadDisplayName</key>
+    <string>Tiscali Mobile APN</string>
+    <key>PayloadIdentifier</key>
+    <string>com.tiscali.mobile.apn.profile.6A820E15-10B3-4848-8924-118E84E438A4</string>
+    <key>PayloadOrganization</key>
+    <string>Tiscali Mobile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>6A820E15-10B3-4848-8924-118E84E438A4</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
