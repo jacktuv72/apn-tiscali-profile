@@ -10,58 +10,19 @@
             <key>PayloadDescription</key>
             <string>Configura APN Tiscali Mobile</string>
             <key>PayloadDisplayName</key>
-            <string>Tiscali APN Dati</string>
+            <string>Tiscali APN</string>
             <key>PayloadIdentifier</key>
-            <string>com.example.tiscali.apn.data</string>
+            <string>com.example.tiscali.apn</string>
             <key>PayloadType</key>
             <string>com.apple.cellular</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
-
-        <dict>
-            <key>APN</key>
-            <string>tiscalimobileinternet</string>
-            <key>DefaultAccessoryName</key>
-            <string>Tethering</string>
-            <key>PayloadDescription</key>
-            <string>Configura APN Hotspot Tiscali Mobile</string>
-            <key>PayloadDisplayName</key>
-            <string>Tiscali APN Hotspot</string>
-            <key>PayloadIdentifier</key>
-            <string>com.example.tiscali.apn.tethering</string>
-            <key>PayloadType</key>
-            <string>com.apple.tethering</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-        
-        <dict>
-            <key>PayloadCertificateFileName</key>
-            <string>MyCertificate.cer</string>
-            <key>PayloadContent</key>
-            <data>
-            BASE64_ENCODED_CERTIFICATE_DATA
-            </data>
-            <key>PayloadDescription</key>
-            <string>Certificato Valido (Sostituire)</string>
-            <key>PayloadDisplayName</key>
-            <string>My Certificate</string>
-            <key>PayloadIdentifier</key>
-            <string>com.example.certificate.uniqueid</string>
-            <key>PayloadType</key>
-            <string>com.apple.security.pkcs12</string>
-            <key>PayloadUUID</key>
-            <string>PLACEHOLDER_CERTIFICATE_PAYLOAD_UUID</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-
     </array>
     <key>PayloadDisplayName</key>
-    <string>Tiscali Mobile Completo</string>
+    <string>Tiscali Mobile APN</string>
     <key>PayloadIdentifier</key>
-    <string>com.example.tiscali.complete</string>
+    <string>com.example.tiscali</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
