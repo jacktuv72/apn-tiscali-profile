@@ -2,81 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadContent</key>
-  <array>
-    <dict>
-      <key>PayloadType</key>
-      <string>com.apple.cellular</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>PayloadIdentifier</key>
-      <string>com.tiscali.apn.profile</string>
-      <key>PayloadUUID</key>
-      <string>RANDOM-UUID-GOES-HERE</string>
-      <key>PayloadDisplayName</key>
-      <string>Tiscali INTERNET APN</string>
-      <key>PayloadDescription</key>
-      <string>Configura APN Tiscali Mobile inclusi tethering</string>
-      <key>PayloadOrganization</key>
-      <string>Tiscali</string>
-      <key>Cellular</key>
-      <dict>
-        <key>Version</key>
-        <integer>1</integer>
-        <key>DefaultDataEnabled</key>
-        <true/>
-        <key>DefaultVoiceEnabled</key>
-        <true/>
-        <key>AttachAPN</key>
+    <key>PayloadContent</key>
+    <array>
         <dict>
-          <key>Name</key>
-          <string>Tiscali INTERNET</string>
-          <key>AuthenticationType</key>
-          <string>CHAP</string>
-          <key>Username</key>
-          <string></string>
-          <key>Password</key>
-          <string></string>
-        </dict>
-        <key>APNs</key>
-        <array>
-          <dict>
-            <key>Name</key>
-            <string>Tiscali INTERNET</string>
             <key>APN</key>
             <string>tiscalimobileinternet</string>
-            <key>Username</key>
-            <string></string>
-            <key>Password</key>
-            <string></string>
-            <key>AuthenticationType</key>
-            <string>CHAP</string>
-            <key>DefaultProtocolMask</key>
+            <key>PayloadDescription</key>
+            <string>Configura APN Tiscali Mobile</string>
+            <key>PayloadDisplayName</key>
+            <string>Tiscali APN</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.tiscali.apn</string>
+            <key>PayloadType</key>
+            <string>com.apple.cellular</string>
+            <key>PayloadVersion</key>
             <integer>1</integer>
-            <key>ProtocolMask</key>
-            <integer>1</integer>
-            <key>AllowedProtocolMask</key>
-            <integer>2</integer>
-            <key>AllowedProtocolMaskInRoaming</key>
-            <integer>2</integer>
-            <key>AllowedProtocolMaskInDomesticRoaming</key>
-            <integer>2</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
-  </array>
-  <key>PayloadDisplayName</key>
-  <string>Tiscali INTERNET APN</string>
-  <key>PayloadIdentifier</key>
-  <string>com.tiscali.apn.profile</string>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadUUID</key>
-  <string>ANOTHER-RANDOM-UUID-GOES-HERE</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Tiscali Mobile APN</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.tiscali</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>F1A2B3C4-D5E6-47F8-9A0B-1C2D3E4F5A6B</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
 </dict>
 </plist>
