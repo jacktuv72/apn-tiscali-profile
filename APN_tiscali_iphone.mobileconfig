@@ -5,43 +5,30 @@
     <key>PayloadContent</key>
     <array>
         <dict>
-            <key>DefaultsData</key>
-            <dict>
-                <key>apn</key>
-                <string>tiscalimobileinternet</string>
-                <key>username</key>
-                <string></string>
-                <key>password</key>
-                <string></string>
-            </dict>
+            <key>APN</key>
+            <string>tiscalimobileinternet</string>
             <key>PayloadDescription</key>
-            <string>Configura APN per Tiscali Mobile</string>
+            <string>Configura APN Tiscali Mobile</string>
             <key>PayloadDisplayName</key>
-            <string>APN Tiscali Mobile</string>
+            <string>Tiscali APN</string>
             <key>PayloadIdentifier</key>
-            <string>com.tiscali.mobile.apn.settings</string>
+            <string>com.example.tiscali.apn</string>
             <key>PayloadType</key>
             <string>com.apple.cellular</string>
-            <key>PayloadUUID</key>
-            <string>E35B3B71-0819-4A95-9C49-2A2B03BB790E</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
     </array>
-    <key>PayloadDescription</key>
-    <string>Configurazione APN per Tiscali Mobile</string>
     <key>PayloadDisplayName</key>
-    <string>Tiscali Mobile Internet</string>
+    <string>Tiscali Mobile APN</string>
     <key>PayloadIdentifier</key>
-    <string>com.tiscali.mobile.config</string>
-    <key>PayloadOrganization</key>
-    <string>Tiscali Mobile</string>
+    <string>com.example.tiscali</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>6A820E15-10B3-4848-8924-118E84E438A4</string>
+    <string>F1A2B3C4-D5E6-47F8-9A0B-1C2D3E4F5A6B</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
