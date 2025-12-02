@@ -10,6 +10,12 @@
                 <dict>
                     <key>APN</key>
                     <string>tiscalimobileinternet</string>
+                    <key>Username</key>
+                    <string></string>
+                    <key>Password</key>
+                    <string></string>
+                    <key>Protocol</key>
+                    <string>IP</string>
                     <key>SetupModes</key>
                     <array>
                         <string>Any</string>
@@ -30,6 +36,12 @@
                 <dict>
                     <key>APN</key>
                     <string>tiscalimobileinternet</string>
+                    <key>Username</key>
+                    <string></string>
+                    <key>Password</key>
+                    <string></string>
+                    <key>Protocol</key>
+                    <string>IP</string>
                     <key>SetupModes</key>
                     <array>
                         <string>Any</string>
