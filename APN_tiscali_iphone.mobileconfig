@@ -4,76 +4,31 @@
 <dict>
     <key>PayloadContent</key>
     <array>
-        <!-- APN per dati mobili -->
         <dict>
             <key>APN</key>
             <string>tiscalimobileinternet</string>
-            <key>DefaultsDataSession</key>
-            <true/>
-            <key>AllowNetworkRelay</key>
-            <false/>
-            <key>AttachAPN</key>
-            <string>tiscalimobileinternet</string>
-            <key>AuthenticationType</key>
-            <string>PAP</string>
             <key>PayloadDescription</key>
-            <string>Configura APN per dati TIM</string>
+            <string>Configura APN Tiscali Mobile</string>
             <key>PayloadDisplayName</key>
-            <string>APN TIM Dati</string>
+            <string>Tiscali APN</string>
             <key>PayloadIdentifier</key>
-            <string>com.tim.apn.data</string>
-            <key>PayloadOrganization</key>
-            <string>TIM</string>
+            <string>com.example.tiscali.apn</string>
             <key>PayloadType</key>
             <string>com.apple.cellular</string>
-            <key>PayloadUUID</key>
-            <string>E3E3E3E3-E3E3-E3E3-E3E3-E3E3E3E3E3E1</string>
-            <key>PayloadVersion</key>
-            <integer>1</integer>
-        </dict>
-        
-        <!-- APN per hotspot personale -->
-        <dict>
-            <key>APN</key>
-            <string>tiscalimobileinternet</string>
-            <key>DefaultsDataSession</key>
-            <true/>
-            <key>AllowNetworkRelay</key>
-            <false/>
-            <key>AttachAPN</key>
-            <string>tiscalimobileinternet</string>
-            <key>AuthenticationType</key>
-            <string>PAP</string>
-            <key>PayloadDescription</key>
-            <string>Configura APN per hotspot TIM</string>
-            <key>PayloadDisplayName</key>
-            <string>APN TIM Hotspot</string>
-            <key>PayloadIdentifier</key>
-            <string>com.tim.apn.hotspot</string>
-            <key>PayloadOrganization</key>
-            <string>TIM</string>
-            <key>PayloadType</key>
-            <string>com.apple.cellular</string>
-            <key>PayloadUUID</key>
-            <string>E3E3E3E3-E3E3-E3E3-E3E3-E3E3E3E3E3E2</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
         </dict>
     </array>
-    <key>PayloadDescription</key>
-    <string>Configurazione APN TIM per dati e hotspot</string>
     <key>PayloadDisplayName</key>
-    <string>Configurazione APN TIM</string>
+    <string>Tiscali Mobile APN</string>
     <key>PayloadIdentifier</key>
-    <string>com.tim.apn.profile</string>
-    <key>PayloadOrganization</key>
-    <string>TIM</string>
+    <string>com.example.tiscali</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>E3E3E3E3-E3E3-E3E3-E3E3-E3E3E3E3E3E0</string>
+    <string>F1A2B3C4-D5E6-47F8-9A0B-1C2D3E4F5A6B</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
